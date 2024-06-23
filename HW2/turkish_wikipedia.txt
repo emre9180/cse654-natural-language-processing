@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/mustfkeskin/turkish-wikipedia-dump
+
+Get the dataset from here.
