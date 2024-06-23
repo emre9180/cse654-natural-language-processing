@@ -1,0 +1,57 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+center = 1;
+orientation = Landscape;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0", shape = doublecircle, style = bold, fontsize = 14]
+	0 -> 0 [label = "other:other", fontsize = 14];
+	0 -> 1 [label = "p:ε", fontsize = 14];
+	0 -> 2 [label = "ç:ε", fontsize = 14];
+	0 -> 3 [label = "t:ε", fontsize = 14];
+	0 -> 4 [label = "k:ε", fontsize = 14];
+	0 -> 9 [label = "+3sp:+3sp", fontsize = 14];
+	0 -> 9 [label = "+1sp:+1sp", fontsize = 14];
+	0 -> 9 [label = "+2sp:+2sp", fontsize = 14];
+	0 -> 9 [label = "+3pp:+3pp", fontsize = 14];
+	0 -> 9 [label = "+1pp:+1pp", fontsize = 14];
+	0 -> 9 [label = "+2pp:+2pp", fontsize = 14];
+1 [label = "1", shape = circle, style = solid, fontsize = 14]
+	1 -> 0 [label = "other:p,other", fontsize = 14];
+	1 -> 5 [label = "+3sp:b+3sp", fontsize = 14];
+	1 -> 5 [label = "+2sp:b+2sp", fontsize = 14];
+	1 -> 5 [label = "+1sp:b+1sp", fontsize = 14];
+	1 -> 5 [label = "+3pp:b+3pp", fontsize = 14];
+	1 -> 5 [label = "+2pp:b+2pp", fontsize = 14];
+	1 -> 5 [label = "+1pp:b+1pp", fontsize = 14];
+2 [label = "2", shape = circle, style = solid, fontsize = 14]
+	2 -> 0 [label = "other:ç,other", fontsize = 14];
+	2 -> 6 [label = "+3sp:c+3sp", fontsize = 14];
+	2 -> 6 [label = "+2sp:c+2sp", fontsize = 14];
+	2 -> 6 [label = "+1sp:c+1sp", fontsize = 14];
+	2 -> 6 [label = "+3pp:c+3pp", fontsize = 14];
+	2 -> 6 [label = "+2pp:c+2pp", fontsize = 14];
+	2 -> 6 [label = "+1pp:c+1pp", fontsize = 14];
+3 [label = "3", shape = circle, style = solid, fontsize = 14]
+	3 -> 0 [label = "other:t,other", fontsize = 14];
+	3 -> 7 [label = "+3sp:d+3sp", fontsize = 14];
+	3 -> 7 [label = "+2sp:d+2sp", fontsize = 14];
+	3 -> 7 [label = "+1sp:d+1sp", fontsize = 14];
+	3 -> 7 [label = "+3pp:d+3pp", fontsize = 14];
+	3 -> 7 [label = "+2pp:d+2pp", fontsize = 14];
+	3 -> 7 [label = "+1pp:d+1pp", fontsize = 14];
+4 [label = "4", shape = circle, style = solid, fontsize = 14]
+	4 -> 0 [label = "other:k,other", fontsize = 14];
+	4 -> 8 [label = "+3sp:ğ+3sp", fontsize = 14];
+	4 -> 8 [label = "+2sp:ğ+2sp", fontsize = 14];
+	4 -> 8 [label = "+1sp:ğ+1sp", fontsize = 14];
+	4 -> 8 [label = "+3pp:ğ+3pp", fontsize = 14];
+	4 -> 8 [label = "+2pp:ğ+2pp", fontsize = 14];
+	4 -> 8 [label = "+1pp:ğ+1pp", fontsize = 14];
+5 [label = "5", shape = doublecircle, style = solid, fontsize = 14]
+6 [label = "6", shape = doublecircle, style = solid, fontsize = 14]
+7 [label = "7", shape = doublecircle, style = solid, fontsize = 14]
+8 [label = "8", shape = doublecircle, style = solid, fontsize = 14]
+9 [label = "9", shape = doublecircle, style = solid, fontsize = 14]
+}
